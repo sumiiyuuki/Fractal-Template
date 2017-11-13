@@ -1,0 +1,26 @@
+// デフォルト
+.ttl {
+  font-weight: bold;
+}
+
+// 見出しレベル1
+.ttl-lev1 {
+  padding: 10px 20px;
+  background: #f0ffff;
+  border-left: 6px solid #afeeee;
+  font-size: 30px;
+}
+
+// 見出しレベル2
+.ttl-lev2 {
+  padding: 0 15px;
+  border-left: 5px solid #afeeee;
+  font-size: 24px;
+}
+
+// 見出しレベル3
+.ttl-lev3 {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+  font-size: 18px;
+}
