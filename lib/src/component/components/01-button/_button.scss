@@ -21,20 +21,24 @@ button {
 
 // 汎用的なボタンのスタイル
 .btn-gp {
-  color: #00bfff;
+  $color: #00bfff;
+
+  color: $color;
 
   &:hover {
     color: #fff;
-    background: #00bfff;
+    background: $color;;
   }
 }
 
 // 汎用的なボタンのスタイル
 .btn-form {
-  color: #b22222;
+  $color: #b22222;
+  
+  color: $color;
   
   &:hover {
     color: #fff;
-    background: #b22222;
+    background: $color;
   }
 }
