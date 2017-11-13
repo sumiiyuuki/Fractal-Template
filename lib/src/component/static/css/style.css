@@ -1,0 +1,30 @@
+button {
+  display: block;
+  appearance: none;
+  padding: 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer; }
+
+.btn {
+  padding: 10px 100px;
+  background: #fff;
+  border-width: 1px;
+  border-style: solid;
+  font-size: 14px;
+  transition: all .2s ease; }
+
+.btn-gp {
+  color: #00bfff; }
+  .btn-gp:hover {
+    color: #fff;
+    background: #00bfff; }
+
+.btn-form {
+  color: #b22222; }
+  .btn-form:hover {
+    color: #fff;
+    background: #b22222; }
+
+/*# sourceMappingURL=style.css.map */

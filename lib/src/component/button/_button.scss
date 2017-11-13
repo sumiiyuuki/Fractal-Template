@@ -1,0 +1,40 @@
+// button要素の初期化
+button {
+  display: block;
+  appearance: none;
+  padding: 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+// デフォルトのスタイル
+.btn {
+  padding: 10px 100px;
+  background: #fff;
+  border-width: 1px;
+  border-style: solid;
+  font-size: 14px;
+  transition: all .2s ease;
+}
+
+// 汎用的なボタンのスタイル
+.btn-gp {
+  color: #00bfff;
+
+  &:hover {
+    color: #fff;
+    background: #00bfff;
+  }
+}
+
+// 汎用的なボタンのスタイル
+.btn-form {
+  color: #b22222;
+  
+  &:hover {
+    color: #fff;
+    background: #b22222;
+  }
+}

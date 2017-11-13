@@ -1,0 +1,22 @@
+{
+  "name": "fractal-template",
+  "version": "1.0.0",
+  "description": "ls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumiiyuuki/Frontnote-Template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sumiiyuuki/Frontnote-Template/issues"
+  },
+  "homepage": "https://github.com/sumiiyuuki/Frontnote-Template#readme",
+  "dependencies": {
+    "@frctl/fractal": "^1.1.7"
+  }
+}
