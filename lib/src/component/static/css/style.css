@@ -1,3 +1,6 @@
+/* ====================
+- > components
+==================== */
 button {
   display: block;
   appearance: none;
@@ -26,5 +29,36 @@ button {
   .btn-form:hover {
     color: #fff;
     background: #b22222; }
+
+.logo {
+  width: 200px;
+  height: 30px;
+  transition: all .2s ease; }
+  .logo:hover {
+    opacity: .6; }
+
+.gnav-inner {
+  display: flex;
+  align-items: center; }
+
+.gnav-item {
+  margin: 0 10px;
+  list-style: none;
+  font-weight: bold; }
+  .gnav-item a {
+    color: #000;
+    text-decoration: none;
+    transition: all .2s ease; }
+    .gnav-item a:hover, .gnav-item a[aria-current="true"] {
+      color: #00bfff; }
+
+/* ====================
+- > modules
+==================== */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px; }
 
 /*# sourceMappingURL=style.css.map */

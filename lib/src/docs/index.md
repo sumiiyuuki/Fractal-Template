@@ -1,5 +1,5 @@
 ---
-title: Rriverのコンポーネントライブラリ
+title: Project Name
 ---
 
-パターンライブラリのテンプレートです。
+Projectのパターンライブラリです。
